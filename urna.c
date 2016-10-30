@@ -5,11 +5,11 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "/home/lucas/Documents/c/bib.h"
+#include "bib.h"// biotecla propia
 
 // declarar funções
     int login();
-	int central();
+	int central();// funçã que será responsavel pela tela de opções após o login
 	int telaconfele();
 	int telaconfcand();
 	int conf();
